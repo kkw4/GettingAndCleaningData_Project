@@ -22,6 +22,6 @@ By executing the run_analysis.R file it will do the following:
 * Write this data set with the average of each variable for each activity and each subject to a file called "tidy_dataset.txt" located in the working directory
 
 To read the tidy_dataset.txt file run the following command in R:
-- data <- read.table(file_path, header = TRUE)
+- data <- read.table("tidy_dataset.txt", header = TRUE)
 - View(data)
 
